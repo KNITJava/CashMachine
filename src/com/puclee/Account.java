@@ -22,4 +22,21 @@ public class Account {
         }
         return accountCard;
     }
+
+    public double checkBalance() {
+        return saldo;
+    }
+
+    public void cashIn(int amount) {
+        saldo += amount;
+    }
+
+    public boolean cashOut(int amount){
+
+        if(amount <= saldo){
+            saldo -= amount;
+            return true;
+        }
+        return false;
+    }
 }

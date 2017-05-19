@@ -1,6 +1,8 @@
 package com.puclee;
 
+
 public class Main {
+
 
     public static void main(String[] args) {
         CashMachine cashMachine =
@@ -14,7 +16,6 @@ public class Main {
         Card wojtekCard = wojtekAccount.createNewCard(1234);
 
         cashMachine.insertCard(wojtekCard);
-
 
     }
 }

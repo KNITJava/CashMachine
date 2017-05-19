@@ -24,4 +24,8 @@ public class Card {
             return true;
         return false;
     }
+
+    public Account getOnwerAccount() {
+        return onwerAccount;
+    }
 }
